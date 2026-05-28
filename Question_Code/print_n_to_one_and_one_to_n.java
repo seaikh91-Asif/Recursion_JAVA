@@ -5,6 +5,7 @@ public class print_n_to_one_and_one_to_n {
         Scanner scanner = new Scanner(System.in);
         System.out.print("enter a number: ");
         int n = scanner.nextInt();
+
           NtoOne(n);
           OnetoN(n);
           both(n);
