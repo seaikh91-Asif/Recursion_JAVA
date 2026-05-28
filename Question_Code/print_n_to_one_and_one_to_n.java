@@ -11,6 +11,7 @@ public class print_n_to_one_and_one_to_n {
     }
 
     // function for printing n to one
+
     static void NtoOne(int n){
         if( n == 0){
             return;
@@ -20,6 +21,7 @@ public class print_n_to_one_and_one_to_n {
     }
 
     // function for printing one to n
+
     static void OnetoN(int n){
         if( n == 0){
             return;
@@ -29,6 +31,7 @@ public class print_n_to_one_and_one_to_n {
     }
 
     // function for printing both one to n and n to one
+
     static void both(int n){
         if( n == 0){
             return;
