@@ -6,4 +6,5 @@ public class Reverse_Number {
         System.out.print("enter the Number: ");
         int n = scanner.nextInt();
     }
+
 }
