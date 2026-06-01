@@ -15,12 +15,10 @@ public class CountZero {
             return 1;
         }
 
-
         long positiveN = Math.abs((long) n);
 
         return helper(positiveN, 0);
     }
-
 
     static int helper(long n, int count) {
 
@@ -28,9 +26,7 @@ public class CountZero {
             return count;
         }
 
-
         long rem = n % 10;
-
 
         if (rem == 0) {
             return helper(n / 10, count + 1);
