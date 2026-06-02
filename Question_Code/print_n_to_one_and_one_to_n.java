@@ -7,8 +7,8 @@ public class print_n_to_one_and_one_to_n {
         int n = scanner.nextInt();
 
           NtoOne(n);
-          OnetoN(n);
-          both(n);
+//          OnetoN(n);
+//          both(n);
     }
 
     // function for printing n to one
@@ -22,23 +22,23 @@ public class print_n_to_one_and_one_to_n {
     }
 
     // function for printing one to n
-
-    static void OnetoN(int n){
-        if( n == 0){
-            return;
-        }
-        OnetoN(n - 1);
-        System.out.println(n);
-    }
+//
+//    static void OnetoN(int n){
+//        if( n == 0){
+//            return;
+//        }
+//        OnetoN(n - 1);
+//        System.out.println(n);
+//    }
 
     // function for printing both one to n and n to one
 
-    static void both(int n){
-        if( n == 0){
-            return;
-        }
-        System.out.println(n);
-        both(n - 1);
-        System.out.println(n);
-    }
+//    static void both(int n){
+//        if( n == 0){
+//            return;
+//        }
+//        System.out.println(n);
+//        both(n - 1);
+//        System.out.println(n);
+//    }
 }
