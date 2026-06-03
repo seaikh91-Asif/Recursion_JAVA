@@ -7,8 +7,8 @@ public class print_n_to_one_and_one_to_n {
         int n = scanner.nextInt();
 
           NtoOne(n);
-//          OnetoN(n);
-//          both(n);
+          OnetoN(n);
+          both(n);
     }
 
     // function for printing n to one
