@@ -6,7 +6,7 @@ public class BinarySearch {
         Scanner scanner = new Scanner(System.in);
         System.out.print("enter what you want to find: ");
         int target = scanner.nextInt();
-        System.out.println(search(arr, target,  0, arr.length));
+        System.out.println(search(arr, target,  0, arr.length - 1));
     }
 
     static int search (int [] arr, int target, int s, int e){
