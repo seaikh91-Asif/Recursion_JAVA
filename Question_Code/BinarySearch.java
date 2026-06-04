@@ -9,21 +9,19 @@ public class BinarySearch {
         System.out.println(search(arr, target,  0, arr.length - 1));
     }
 
-    static int search (int [] arr, int target, int s, int e){
-        if(s > e){
+    static int search(int [] arr, int target, int start, int end){
+        if(start > end) {
             return -1;
         }
 
-        int m = s + ( e - s)/2;
-
-        if (arr[m] == target){
-            return m;
+        int mid = start + (end - start)/2;
+        if(arr[mid] == target){
+            return mid;
         }
-
-        if(target < arr[m]){
-           return search(arr, target,s, m - 1);
+        if(arr[mid] < target){
+           return search(arr, target, mid + 1, end);
         }
+        return search(arr, target, start, mid - 1);
 
-        return search(arr, target, m + 1, e);
     }
 }
