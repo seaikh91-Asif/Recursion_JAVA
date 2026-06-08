@@ -10,7 +10,6 @@ public class LinearSeach_Recursion {
 
         System.out.println(search(arr, target, 0));
     }
-
     static int search(int [] arr, int target, int index){
 
         if(index == arr.length){
