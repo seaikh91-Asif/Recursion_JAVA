@@ -9,7 +9,6 @@ public class LinearSeach_Recursion {
         int [] arr = {1, 3, 4, 5, 6, 7, 8, 9};
 
         System.out.println(search(arr, target, 0));
-
     }
 
     static int search(int [] arr, int target, int index){
