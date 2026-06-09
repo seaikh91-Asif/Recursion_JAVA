@@ -6,6 +6,7 @@ class SumOfN_naturalNumber_GFG {
     }
 
     public static int recurSum(int n){
+
         if(n == 0){
             return 0;
         }
