@@ -11,5 +11,6 @@ class SumOfN_naturalNumber_GFG {
             return 0;
         }
        return n + recurSum(n - 1);
+
     }
 }
