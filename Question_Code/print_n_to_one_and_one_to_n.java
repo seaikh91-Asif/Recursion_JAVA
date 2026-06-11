@@ -11,6 +11,7 @@ public class print_n_to_one_and_one_to_n {
           both(n);
     }
 
+
     // function for printing n to one
 
     static void NtoOne(int n){
