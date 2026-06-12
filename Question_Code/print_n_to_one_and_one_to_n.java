@@ -14,6 +14,7 @@ public class print_n_to_one_and_one_to_n {
 
     // function for printing n to one
     // function for printing n to one
+    // function
 
     static void NtoOne(int n){
         if( n == 0){
