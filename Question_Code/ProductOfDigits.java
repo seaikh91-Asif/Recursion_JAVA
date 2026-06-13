@@ -18,3 +18,4 @@ public class ProductOfDigits {
         return (n % 10) * prod(n / 10);
     }
 }
+
