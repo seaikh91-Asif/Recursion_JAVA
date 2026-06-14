@@ -9,6 +9,7 @@ public class additionOfDigits {
         System.out.print(ans);
     }
 
+     // function
     static int digits(int n ){
         if(n == 0){
             return 0;
