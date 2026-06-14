@@ -10,6 +10,7 @@ public class additionOfDigits {
     }
 
      // function
+
     static int digits(int n ){
         if(n == 0){
             return 0;
