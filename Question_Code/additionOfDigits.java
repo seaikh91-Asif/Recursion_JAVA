@@ -10,7 +10,7 @@ public class additionOfDigits {
         System.out.print(ans);
     }
 
-     // function
+     // function for calculating
 
     static int digits(int n ){
         if(n == 0){
