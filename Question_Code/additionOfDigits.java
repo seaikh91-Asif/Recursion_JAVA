@@ -11,6 +11,7 @@ public class additionOfDigits {
         System.out.print(ans);
     }
 
+
      // function for calculating
 
     static int digits(int n ){
