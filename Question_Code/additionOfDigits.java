@@ -10,8 +10,6 @@ public class additionOfDigits {
         int ans = digits(n);
         System.out.print(ans);
     }
-
-
      // function for calculating
 
     static int digits(int n ){
