@@ -18,4 +18,5 @@ public class additionOfDigits {
         }
         return (n % 10) + digits(n / 10);
     }
+
 }
