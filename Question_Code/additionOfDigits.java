@@ -12,6 +12,7 @@ public class additionOfDigits {
     }
      // function for calculating
 
+
     static int digits(int n ){
         if(n == 0){
             return 0;
