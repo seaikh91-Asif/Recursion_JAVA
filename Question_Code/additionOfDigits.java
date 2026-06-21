@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-
 public class additionOfDigits {
 
     public static void main(String[] args){
