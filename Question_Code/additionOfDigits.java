@@ -9,8 +9,8 @@ public class additionOfDigits {
         int ans = digits(n);
         System.out.print(ans);
     }
-     // function for calculating
 
+     // function for calculating
 
     static int digits(int n ){
         if(n == 0){
