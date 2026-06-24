@@ -15,5 +15,4 @@ public class Factorial {
         }
         return n * factorial(n - 1);
     }
-
 }
