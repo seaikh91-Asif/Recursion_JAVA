@@ -8,6 +8,7 @@ public class Factorial {
         int ans = factorial(n);
         System.out.print(ans);
     }
+
     static int factorial(int n ){
 
         if(n <= 1) {
