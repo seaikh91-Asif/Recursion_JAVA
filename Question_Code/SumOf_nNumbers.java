@@ -9,6 +9,7 @@ public class SumOf_nNumbers {
         System.out.println(ans);
 
     }
+
     static int sum(int n ){
         if(n <= 1) {
             return 1;
