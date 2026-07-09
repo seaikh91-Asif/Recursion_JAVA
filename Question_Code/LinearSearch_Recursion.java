@@ -13,14 +13,14 @@ public class LinearSearch_Recursion {
        return arr[index] == target || isExists(arr, target, index +1);
     }
 
-//    static int findIndex(int [] arr, int target, int index){
-//        if(index == arr.length){
-//            return index;
-//        }
-//        if(arr[index]  == target){
-//            return index;
-//        } else {
-//            return isExists(arr, target, index +1);
-//        }
-//    }
+    static int findIndex(int [] arr, int target, int index){
+        if(index == arr.length){
+            return index;
+        }
+        if(arr[index]  == target){
+            return index;
+        } else {
+            return isExists(arr, target, index +1);
+        }
+    }
 }
