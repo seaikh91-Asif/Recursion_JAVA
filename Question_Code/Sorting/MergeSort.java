@@ -60,4 +60,23 @@ public class MergeSort {
 
         return mix;
     }
+
+    static void mergeSortInPlace(int [] arr, int start, int end){
+        if(end - start == 1){
+            return;
+        }
+
+        int mid = (start + end) / 2;
+
+        mergeSortInPlace(arr , start, mid);
+        mergeSortInPlace(arr, mid, end );
+
+        return mergeInPlace(arr, start, mid, end);
+    }
+
+    static int [] mergeInPlace(int [] arr, int start, int mid, int end){
+        int [] mix = new int [end - start];
+
+
+    }
 }
