@@ -17,6 +17,8 @@ public class MergeSort {
 
         }
 
+
+
         int mid = arr.length / 2;
 
         // Recursively split and sort both halves
