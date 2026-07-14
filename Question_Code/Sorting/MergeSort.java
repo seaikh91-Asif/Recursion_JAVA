@@ -13,6 +13,8 @@ public class MergeSort {
         // Base case: arrays with 0 or 1 elements are already sorted
         if (arr.length == 1) {
             return arr;
+
+
         }
 
         int mid = arr.length / 2;
