@@ -14,6 +14,7 @@ public class MergeSort {
         if (arr.length == 1) {
             return arr;
 
+
         }
 
         int mid = arr.length / 2;
