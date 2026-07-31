@@ -27,5 +27,4 @@ public class Selection_Sort {
             selection(arr, r - 1, 0, 0);
         }
     }
-
 }
