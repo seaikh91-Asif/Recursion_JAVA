@@ -24,6 +24,7 @@ public class Selection_Sort {
             int temp = arr[max];
             arr[max] = arr[r - 1];
             arr[r - 1] = temp;
+
             selection(arr, r - 1, 0, 0);
         }
     }
