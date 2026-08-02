@@ -9,6 +9,7 @@ public class MergeSort {
         System.out.println(Arrays.toString(arr));
     }
 
+    // Recursion call for coppying two arrya of an given unsorted array
     static int [] mergeSort(int [] arr ){
         if(arr.length == 1){
             return arr;
@@ -22,6 +23,7 @@ public class MergeSort {
         return merge(arr, first, seoond);
     }
 
+//    Merging the arrays
     static int [] merge(int [] arr,  int [] first, int [] second){
 
         int [] mix = new int [first.length + second.length];
