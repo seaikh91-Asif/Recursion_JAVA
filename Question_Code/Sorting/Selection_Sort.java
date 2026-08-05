@@ -20,6 +20,7 @@ public class Selection_Sort {
             } else {
                 selection(arr, r, c + 1, max);
             }
+
         } else {
             int temp = arr[max];
             arr[max] = arr[r - 1];
