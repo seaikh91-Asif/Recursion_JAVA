@@ -26,7 +26,5 @@ public class Selection_Sort {
             arr[r - 1] = temp;
             selection(arr, r - 1, 0, 0);
         }
-
     }
-
 }
