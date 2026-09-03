@@ -10,12 +10,15 @@ public class Factorial {
         System.out.print(ans);
     }
 
+
+
     static int factorial(int n ){
         if(n == 1) {
             return 1;
         }
 
 //        commit
+
 
 
 
