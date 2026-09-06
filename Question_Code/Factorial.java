@@ -10,7 +10,7 @@ public class Factorial {
         System.out.print(ans);
     }
 
-    //cocmmit
+    //cocmmit commit
 
 
 
