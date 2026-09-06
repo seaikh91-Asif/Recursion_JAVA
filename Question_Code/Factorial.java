@@ -10,6 +10,8 @@ public class Factorial {
         System.out.print(ans);
     }
 
+    //cocmmit
+
 
 
     static int factorial(int n ){
