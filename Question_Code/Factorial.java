@@ -19,12 +19,7 @@ public class Factorial {
             return 1;
         }
 
-//        commit commit commit
-
-
-
-
-
+//        commit commit commit ccommit s
 
 
         return n + factorial(n - 1);
