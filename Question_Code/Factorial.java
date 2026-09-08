@@ -9,18 +9,10 @@ public class Factorial {
         int ans = factorial(n);
         System.out.print(ans);
     }
-
-    //cocmmit commit cocmmit
- commit
-
-
     static int factorial(int n ){
         if(n == 1) {
             return 1;
         }
-
-//        commit commit commit ccommit s
-
 
         return n + factorial(n - 1);
     }
