@@ -15,7 +15,7 @@ public class Factorial {
         }
 
         return n + factorial(n - 1);
-    } // commit commit commit commit
+    } // commit commit commit commit commit
 }
 
 
