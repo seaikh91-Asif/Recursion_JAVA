@@ -8,7 +8,7 @@ public class FristNegetiveNumber_in_window {
   Note:
     Challanges:
     1) Find out Calculation
-    2)
+    2) Add to a quee
     3) Slid the window
 */
 
