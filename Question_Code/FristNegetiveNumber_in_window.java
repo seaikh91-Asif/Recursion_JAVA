@@ -12,7 +12,7 @@ public class FristNegetiveNumber_in_window {
     3) Slid the window
 
     Approch:
-    1)
+    1)approche one:
 */
 
 
