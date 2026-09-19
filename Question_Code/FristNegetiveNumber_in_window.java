@@ -13,6 +13,7 @@ public class FristNegetiveNumber_in_window {
 
     Approch:
     1)approche one:
+    2)
 */
 
 
