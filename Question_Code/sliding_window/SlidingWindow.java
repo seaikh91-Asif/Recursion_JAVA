@@ -1,3 +1,5 @@
+package sliding_window;
+
 public class SlidingWindow {
     public static void main(String[] args){
         int [] arr = { 2, 1, 5, 7, 4, 9, 6, 2, 3, 1};
